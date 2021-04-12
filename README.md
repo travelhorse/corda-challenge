@@ -40,7 +40,6 @@ flow start CreateNewAccount acctName: CourierFinance
 # Sharing Accounts
 ## In Seller's terminal
 ```
-flow start ShareAccountTo acctNameShared: SellerStock, shareTo: Buyer
 flow start ShareAccountTo acctNameShared: SellerInbox, shareTo: Buyer
 flow start ShareAccountTo acctNameShared: SellerFinance, shareTo: Buyer
 flow start ShareAccountTo acctNameShared: SellerStock, shareTo: DeliveryCo
